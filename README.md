@@ -15,9 +15,7 @@ contract Banckcontract{
 }
 ///////////////////////////////////////
 
-// Solidity program to implement
-// the above approach
-//SPDX-License-Identifier: MIT
+
 pragma solidity ^0.7.5;
 
 // Build the Contract

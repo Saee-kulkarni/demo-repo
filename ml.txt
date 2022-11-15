@@ -18,7 +18,8 @@ while previous_step_size > precision and iters < max_iters:
 
 ///////////////////////////////////////////////////////////////////////////
 ass1
-
+data.tail()
+data1 = data.drop(['Unnamed: 0','pickup_datetime','key'], axis=1)
 correlation=data1.corr()
 sns.heatmap(correlation, annot=True)
 from sklearn.preprocessing import StandardScaler
